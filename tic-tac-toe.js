@@ -47,3 +47,5 @@ document.querySelector(".btn").addEventListener("click", () => {
     document.getElementById("status").classList.remove("you-won");
     turn = "X";
 });
+
+if (square.textContent === "") { /* existing code here */ }
